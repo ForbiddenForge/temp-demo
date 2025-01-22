@@ -21,7 +21,7 @@ export const Experience = () => {
 
   const [renderTarget1, renderTarget2] = [useFBO(), useFBO()];
   const renderMaterial = useRef();
-  const [version, setVersion] = useState(1);
+  const [version, setVersion] = useState(0);
   const [prevMode, setPrevMode] = useState(0);
 
   const { scene: modernKitchenScene, materials } = useGLTF(
