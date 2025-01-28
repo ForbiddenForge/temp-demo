@@ -53,6 +53,8 @@ const { length, thickness } = useControls("Counter Dimensions", {
     }
   }
 });
+
+
   
   
   const itemsToChangeMaterial = useRef([]);
